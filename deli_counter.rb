@@ -4,6 +4,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     new_array = []
+    i = 0
     katz_deli.each do |name|
       new_array << (i + 1). array[i]
     end
