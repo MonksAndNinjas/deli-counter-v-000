@@ -6,7 +6,8 @@ def line(katz_deli)
     new_array = []
     i = 0
     katz_deli.each do |name|
-      new_array << i+1  name
+      name_num = 1. name
+      new_array << name_num
       i += 1
     end
     puts "The line is currently: " + new_array.join(" ")
