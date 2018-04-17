@@ -13,3 +13,7 @@ def line(katz_deli)
     puts ["The line is currently: ", new_array.join(" ")].join
   end
 end
+
+
+def take_a_number
+end
