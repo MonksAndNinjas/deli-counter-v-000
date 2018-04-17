@@ -7,7 +7,7 @@ def line(katz_deli)
     i = 0
     katz_deli.each do |name|
       number = (i+1).
-      number_name = number + name
+      number_name = "number" + name
       new_array << number_name
       i += 1
     end
