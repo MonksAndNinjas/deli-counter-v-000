@@ -6,10 +6,10 @@ def line(katz_deli)
     new_array = []
     i = 0
     katz_deli.each do |name|
-      name_num = i.join + name
-      new_array << name_num
+      name_num = [i, ., name]join
+      puts
       i += 1
     end
-    puts "The line is currently: " + new_array.join(" ")
+    #puts "The line is currently: " + new_array.join(" ")
   end
 end
