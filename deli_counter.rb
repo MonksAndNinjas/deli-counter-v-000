@@ -6,6 +6,7 @@ def line(katz_deli)
     new_array = []
     katz.each do |name|
       new_array << "(i + 1). array[i] "
+    end
     ## puts "The line is currently : {new_array.join}"
   end
 end
