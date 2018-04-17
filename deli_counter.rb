@@ -6,7 +6,7 @@ def line(katz_deli)
     new_array = []
     i = 0
     katz_deli.each do |name|
-      name_num = i + name
+      name_num = {i} + name
       new_array << name_num
       i += 1
     end
